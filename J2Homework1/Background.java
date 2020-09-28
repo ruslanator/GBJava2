@@ -3,7 +3,6 @@ package J2Homework1;
 import java.awt.*;
 
 public class Background extends Sprite {
-    
     private int R;
     private int G;
     private int B;

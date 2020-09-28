@@ -26,7 +26,6 @@ public class MainCircles extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setBounds(POS_X, POS_Y, WINDOW_WIDTH, WINDOW_HEIGHT);
         GameCanvas canvas = new GameCanvas(this);
-        // вызов слушателя мыши
         canvas.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
@@ -79,4 +78,5 @@ public class MainCircles extends JFrame {
         }
         background.render(canvas, g);
     }
+
 }

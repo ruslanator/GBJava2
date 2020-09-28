@@ -8,6 +8,7 @@ public class Ball extends Sprite{
             (int)(Math.random() * 255),
             (int)(Math.random() * 255)
     );
+
     private float vX = (float)(100f + (Math.random() * 200f));
     private float vY = (float)(100f + (Math.random() * 200f));
 
